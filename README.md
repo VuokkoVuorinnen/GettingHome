@@ -14,6 +14,8 @@ Run it on a cron!
 
 Get your departure and arrival coordinates from https://maps.google.com
 
+Fill in your subscription key for the DeLijn API. You can get one here: [https://data.delijn.be/developer](https://data.delijn.be/developer)
+
 Fill in the coordinates in the url in the delijn.rb script.
 
 Install eneded gems

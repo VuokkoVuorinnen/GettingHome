@@ -8,7 +8,14 @@ Fill in the departure and arrival stations in the nmbs.rb script.
 
 Install needed gems
 
-Run it on a cron!
+Create the /var/www/html/nmbs directory and copy the following files in there:
+* logo-nmbs-sncb.ashx
+* disable-collapse.js
+* sticky-footer-navbar.css
+
+Configure your apache/nginx to serve the directory
+
+Run the script on a cron!
 
 ## De Lijn
 
@@ -18,7 +25,12 @@ Fill in your subscription key for the DeLijn API. You can get one here: [https:/
 
 Fill in the coordinates in the url in the delijn.rb script.
 
-Install eneded gems
+Install needed gems
+
+Create the /var/www/html/delijn directory and copy the following files in there:
+* De_Lijn.svg
+* disable-collapse.js
+* sticky-footer-navbar.css
 
 Run it on a cron!
 
